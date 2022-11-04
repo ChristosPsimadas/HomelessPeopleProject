@@ -52,4 +52,27 @@ body{
     background-color: #26afe0;
     color: white;
   }
+
+
+  #homelessphoto {
+    width: 350px;
+    height: auto;
+  }
+
+  #image{
+    background-color: white;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+
+
+    width: 350px;
+    box-shadow: 0px 0px 5px #aaaaaa;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+  }
   
