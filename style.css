@@ -1,4 +1,6 @@
-/* Grey background color */
+
+
+/* I wish I split this into multiple files for each page ngl */
 
 body{
   background-color: lightgrey;
@@ -47,6 +49,10 @@ body{
     padding: 30px;
     text-align: justify;
     padding-bottom: 100px;
+  }
+
+  #contactUs {
+    text-align: left;
   }
   
   /* Change the color of links on hover */
@@ -259,4 +265,74 @@ table, th, td {
   height: 300px;
   width: 400px;
   grid-area: a;
+}
+
+
+.solution1{
+  padding-bottom: 5%;
+  text-align: left;
+}
+
+.solution2{
+  padding-bottom: 5%;
+  text-align: left;
+}
+
+
+/* Footer */
+/* Footer */
+/* Footer */
+.footer{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  
+}
+
+.tableStats{
+  display: flex;
+  justify-content: center;
+  border: 0px;
+
+}
+
+.tableText{
+  text-align: left;
+}
+
+
+/* Photo Gallery by Christos Also */
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
