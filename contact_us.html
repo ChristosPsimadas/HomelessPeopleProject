@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html"> Home </a>
+        <a href="info.html"> Info </a>
+        <a href="our_goal.html"> Our Goal</a>
+        <a class="active" href="contact_us.html"> Contact Us </a>
+
+        <p>Home-More People &copy</p>
+    </div>
+
+    <!--Text written by Christos Psimadas-->
+    <div class="bodybox" id="contactUs">
+      <h1>Contact Us</h1>
+        <img id="picture_us" src="images/Ryan.jpg" alt="Ryan">
+        <img id="picture_christos" src="images/christos.png" alt="Christos">
+        <p>
+            Our names are Ryan Lei and Christos Psimadas and we are seniors at Brooklyn Technical 
+            High School. If you would like to contact us, email us at: 
+            RyanL131@nycstudents.net or ChristosP8@nycstudents.net
+        </p>
+        <p>
+            Make sure to follow us on instagram to get notified for updates:
+            @stupido_ryan and @shlad25
+        </p>
+        <p>
+            Fill out our form if you would like to give feedback about our cause.
+        </p>
+
+    </div>
+
+    
+    <form action="https://formspree.io/f/mbjbwovl" method="POST">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_email" />
+        </li>
+        <li>
+          <label for="message">Feedback:</label>
+          <textarea id="message" name="user_message"></textarea>
+        </li>
+        <li class="button">
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+      <br>
+    </form>
+
+    <footer class="footer">
+      <a href="https://www.instagram.com/stupido_ryan/">
+        <img src="images/instagram.png" alt="">
+        Follow us
+      </a>
+
+      <a href="https://www.instagram.com/shlad25/">
+        <img src="images/instagram.png" alt="">
+      </a>
+
+      <p>Home-More People &copy</p>
+      
+      <p>Please donate or support our cause</p>
+    </footer>
+
+</body>
+</html>
